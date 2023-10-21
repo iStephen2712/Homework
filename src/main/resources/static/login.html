@@ -1,73 +1,104 @@
 <!DOCTYPE html>
 
+<head>
+    <title>Tokischa Stream | Inicio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+</head>
 <html>
-    <style>
-        body{
-            background-color: #000000;
-        }
+<style>
+    body {
+        background-color: #000000;
+    }
 
-        table
-        {
-            border: 2px solid #000000;
-            background-color: #027373;
-        }
+    table {
+        border: 2px solid #000000;
+        background-color: #027373;
+    }
 
-        input[type=text], input[type=password]
-        {
-            width: 99%;
-            padding: 10px 50px;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-        }
+    input[type=text],
+    input[type=password] {
+        width: 99%;
+        padding: 10px 50px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
 
-        img
-        {
-            width: 200px;
-            height: 169px;
-        }
+    }
 
-        label
-        {
-            color: white;
-            font-size: 14px;
-            font-weight: lighter;
-            font-family: arial, sans-serif;
-        }
 
-        input[type=submit]
-        {
-            background-color: #000000;
-            color:rgb(254, 254, 254);
-            padding: 8px 10px;
-            margin: 0px 0px;
-            border: 1%;
-            cursor: pointer;
-            width: 50%;
-        }
-        
-    </style>
-    <center>
-            <table>
+    img {
+        width: 200px;
+        height: 150px;
 
-                <tr><td colspan="2" style="background-color:#238379; padding-bottom:5px; padding-top:5px;">
-                    <label>Iniciar Sesión</label></td></tr>
+    }
 
-                <tr><td align="center" rowspan="5">
-                        <img src="imgs/PirataLogo.png" alt=""/>
-                        <label>Nombre de Usuario</label></td></tr>
+    label {
+        color: white;
+        font-size: 14px;
+        font-weight: lighter;
+        font-family: arial, sans-serif;
 
-                <tr><td><input type="text" name="txtusuario"/></td></tr>
-                <tr><td><label>Contraseña</label></td></tr>
-                <tr><td><input type="password" name="txtpassword" /> </td></tr>
+    }
 
-                <tr><td><input type="submit" 
-                    value="Iniciar Sesión" /> <a href="index.html"></a></td></tr>
+    input[type=submit] {
+        background-color: #000000;
+        color: rgb(254, 254, 254);
+        padding: 8px 10px;
+        margin: 0px 0px;
+        border: 1%;
+        cursor: pointer;
+        width: 50%;
+    }
+</style>
 
-            </table>
-        
-    </center>
-
-    <div>
-        <p style="color:#238379; font-family: arial, sans-serif; text-align: center;">&copy; Tokischa Stream</p>
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="generos.html">Generos</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="about.html">Acerca De</a>
     </div>
+</body>
+<center>
+    <table>
+
+        <tr>
+            <td colspan="2" style="background-color:#238379; padding-bottom:5px; padding-top:5px;">
+                <label>Iniciar Sesión</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="mypad">
+                <div>
+                    <img src="imgs/PirataLogo.png" alt="" />
+                </div>
+                <label>Nombre de Usuario</label>
+            </td>
+        </tr>
+
+        <tr>
+            <td><input type="text" name="txtusuario" /></td>
+        </tr>
+        <tr>
+            <td><label>Contraseña</label></td>
+        </tr>
+        <tr>
+            <td><input type="password" name="txtpassword" /> </td>
+        </tr>
+        <div>
+            <button> <a href="index.html">Iniciar Sesión </a></button>
+        </div>
+        
+
+    </table>
+
+</center>
+
+<div>
+    <p style="color:#238379; font-family: arial, sans-serif; text-align: center;">&copy; Tokischa Stream</p>
+</div>
+
 </html>
